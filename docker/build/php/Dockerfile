@@ -1,6 +1,8 @@
 FROM php:fpm
 RUN apt-get update && apt-get install -y --no-install-recommends \
         libxml2-dev \
+        git \
+        vim \
     && docker-php-ext-install \
         pdo_mysql \
         soap \
