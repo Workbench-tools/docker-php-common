@@ -1,5 +1,5 @@
 # docker-php-common
-PHP application with commpon tools.
+PHP application with common tools.
 
 Docker - PHP - Nginx - MySQL
 
